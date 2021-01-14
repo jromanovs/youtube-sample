@@ -13,6 +13,10 @@
 		2B5545DC25AF86C9005EA9F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5545DA25AF86C9005EA9F4 /* Main.storyboard */; };
 		2B5545DE25AF86C9005EA9F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5545DD25AF86C9005EA9F4 /* Assets.xcassets */; };
 		2B5545E125AF86C9005EA9F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5545DF25AF86C9005EA9F4 /* LaunchScreen.storyboard */; };
+		2BB10D2225B0AF7200C2E0A3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB10D2125B0AF7200C2E0A3 /* Constants.swift */; };
+		2BB10D2525B0B2D500C2E0A3 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB10D2425B0B2D500C2E0A3 /* Video.swift */; };
+		2BB10D2825B0B33600C2E0A3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB10D2725B0B33600C2E0A3 /* Model.swift */; };
+		2BB4598225B0BC48004D8F0F /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BB4598125B0BC48004D8F0F /* keys.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2B5545DD25AF86C9005EA9F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B5545E025AF86C9005EA9F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B5545E225AF86C9005EA9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB10D2125B0AF7200C2E0A3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2BB10D2425B0B2D500C2E0A3 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		2BB10D2725B0B33600C2E0A3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2BB4598125B0BC48004D8F0F /* keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				2B5545D425AF86C9005EA9F4 /* AppDelegate.swift */,
 				2B5545D625AF86C9005EA9F4 /* SceneDelegate.swift */,
 				2B5545D825AF86C9005EA9F4 /* ViewController.swift */,
+				2BB10D2125B0AF7200C2E0A3 /* Constants.swift */,
+				2BB10D2425B0B2D500C2E0A3 /* Video.swift */,
+				2BB10D2725B0B33600C2E0A3 /* Model.swift */,
 				2B5545DA25AF86C9005EA9F4 /* Main.storyboard */,
 				2B5545DD25AF86C9005EA9F4 /* Assets.xcassets */,
 				2B5545DF25AF86C9005EA9F4 /* LaunchScreen.storyboard */,
 				2B5545E225AF86C9005EA9F4 /* Info.plist */,
+				2BB4598125B0BC48004D8F0F /* keys.plist */,
 			);
 			path = "youtube-sample";
 			sourceTree = "<group>";
@@ -124,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BB4598225B0BC48004D8F0F /* keys.plist in Resources */,
 				2B5545E125AF86C9005EA9F4 /* LaunchScreen.storyboard in Resources */,
 				2B5545DE25AF86C9005EA9F4 /* Assets.xcassets in Resources */,
 				2B5545DC25AF86C9005EA9F4 /* Main.storyboard in Resources */,
@@ -140,6 +153,9 @@
 				2B5545D925AF86C9005EA9F4 /* ViewController.swift in Sources */,
 				2B5545D525AF86C9005EA9F4 /* AppDelegate.swift in Sources */,
 				2B5545D725AF86C9005EA9F4 /* SceneDelegate.swift in Sources */,
+				2BB10D2825B0B33600C2E0A3 /* Model.swift in Sources */,
+				2BB10D2225B0AF7200C2E0A3 /* Constants.swift in Sources */,
+				2BB10D2525B0B2D500C2E0A3 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
